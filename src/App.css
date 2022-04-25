@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+
+}
+.App{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 0.2px solid white;
+}
+.board{
+    display: flex;
+    flex-direction: column;   
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.letter{
+    border: 1px solid white;
+    margin: 5px;
+    width: 45px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+.line3{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+.keyval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 3px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+#big{
+    width: 70px;
+}
+#correct{
+    background-color: rgb(10, 116, 10);
+
+}
+#almost{
+    background-color: rgb(108, 108, 8);
+}
+
+#error{
+    background-color: rgb(136, 136, 136);
+}
+#other{
+    width: 40px;   
+}
+.gameover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#inactive{
+    background-color: rgb(74, 73, 73);
+}
